@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -31,19 +30,18 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white shadow-md py-3"
-          : "bg-transparent py-6"
+        isScrolled ? "bg-white shadow-md py-3" : "bg-transparent py-6"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="#home" className="flex items-center">
-            <div className="text-2xl font-bold font-serif">
-              <span className="text-swiftdome-black">SWIFT</span>
-              <span className="text-swiftdome-red">DOME</span>
-            </div>
+            <img 
+              src="/lovable-uploads/d99048a8-7c8f-4eaa-b083-2e407e764cbd.png" 
+              alt="SwiftDome Logo" 
+              className="h-12 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation Links */}

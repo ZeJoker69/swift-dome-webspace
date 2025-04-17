@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Dialog } from "@/components/ui/dialog";
 import { ArrowLeft, ArrowRight, X } from "lucide-react";
@@ -7,14 +6,18 @@ const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    { src: "/lovable-uploads/4f58505f-8ceb-483e-88c7-18914fcb6613.png", alt: "Event lighting setup with fairy lights" },
-    { src: "/lovable-uploads/3aec37a4-ad05-4221-8dce-e19c92e934e2.png", alt: "Wedding reception setup" },
-    { src: "/lovable-uploads/8bd6def0-b17f-4db8-a793-fbf98edb6a59.png", alt: "Luxury event venue with lighting" },
-    { src: "/lovable-uploads/b9914b5c-1525-4f31-85e8-249a542792b9.png", alt: "Modern bedroom interior" },
-    { src: "/lovable-uploads/b06bb4d4-d0df-46e1-a927-90e8127490e0.png", alt: "Bedroom with wardrobe" },
-    { src: "/lovable-uploads/7ced293b-6349-4084-9cef-f4553aaebe00.png", alt: "Contemporary living room" },
-    { src: "/lovable-uploads/c2587c74-3c44-43ff-b90b-c53f3013d974.png", alt: "Modern living room design" },
-    { src: "/lovable-uploads/50c723f7-1ab8-4a82-85a5-e221e5644734.png", alt: "Event walkway with lighting" }
+    { src: "/lovable-uploads/1ad34c08-7e04-49e7-81dd-4c4d67ceb373.png", alt: "Fumigation service in action" },
+    { src: "/lovable-uploads/0a0391f4-ec88-409b-95de-561cadd28360.png", alt: "Event lighting and decoration" },
+    { src: "/lovable-uploads/67e7f757-6cae-4e9c-b01e-95ed96592362.png", alt: "Modern bedroom with LED lighting" },
+    { src: "/lovable-uploads/b25cce65-d1b7-4c56-9e03-9aa4994ba58a.png", alt: "Bedroom renovation project" },
+    { src: "/lovable-uploads/b721e13f-09c0-4e51-a9e2-ca9887e1e65c.png", alt: "Kitchen cabinet installation" },
+    { src: "/lovable-uploads/14a03a97-3fef-4d79-ac9f-19ebde1beae8.png", alt: "Furniture cleaning service" },
+    { src: "/lovable-uploads/31ab12cb-561a-4bed-a25b-43cdd89b81ee.png", alt: "Delivery service" },
+    { src: "/lovable-uploads/2dedfc7b-d05d-4aed-9ef7-0f43f240f99b.png", alt: "Event decoration with lighting" },
+    { src: "/lovable-uploads/b2406406-600a-461a-9e5c-2eb5be517905.png", alt: "Professional event setup" },
+    { src: "/lovable-uploads/c6070227-d6f2-4306-b160-81ca81ce0ea6.png", alt: "Delivery rider" },
+    { src: "/lovable-uploads/6bfca1db-0ee9-42a7-89db-5cfe00445398.png", alt: "Event lighting setup" },
+    { src: "/lovable-uploads/23d72fc7-c5eb-44b0-bad2-4917d34d98a3.png", alt: "Event venue decoration" }
   ];
 
   const nextImage = () => {
