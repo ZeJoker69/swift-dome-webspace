@@ -6,6 +6,7 @@ import ServicesSection from "@/components/ServicesSection";
 import AboutSection from "@/components/AboutSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import GallerySection from "@/components/GallerySection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -15,7 +16,6 @@ const Index = () => {
   const [contentLoaded, setContentLoaded] = useState(false);
 
   useEffect(() => {
-    // Small delay to ensure smooth transitions
     const timer = setTimeout(() => {
       setContentLoaded(true);
     }, 500);
@@ -31,6 +31,7 @@ const Index = () => {
       <ServicesSection />
       <AboutSection />
       <BenefitsSection />
+      <GallerySection />
       <TestimonialsSection />
       <ContactSection />
       <Footer />

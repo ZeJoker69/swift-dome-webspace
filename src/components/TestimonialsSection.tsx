@@ -1,4 +1,3 @@
-
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
@@ -8,34 +7,34 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Funke Akindele",
-      role: "Lagos",
+      name: "Chioma Okonkwo",
+      role: "Enugu",
       quote: "SWIFTDOME transformed my home with their exceptional cleaning service. The team was professional, thorough, and paid attention to every detail. I've recommended them to all my friends!",
-      image: "https://randomuser.me/api/portraits/women/64.jpg",
+      image: "https://api.dicebear.com/7.x/personas/svg?seed=chioma",
       rating: 5
     },
     {
       id: 2,
-      name: "Emeka Okafor",
-      role: "Abuja",
+      name: "Ebuka Nnamani",
+      role: "Nsukka",
       quote: "I hired SWIFTDOME for interior decoration and was blown away by their creativity and execution. They turned my vision into reality and completed the project on time and within budget.",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image: "https://api.dicebear.com/7.x/personas/svg?seed=ebuka",
       rating: 5
     },
     {
       id: 3,
-      name: "Amina Ibrahim",
-      role: "Kano",
+      name: "Ada Ojukwu",
+      role: "Onitsha, Anambra",
       quote: "The fumigation service was top-notch! They eliminated our pest problem completely and used safe products around our children and pets. Very professional and reliable service.",
-      image: "https://randomuser.me/api/portraits/women/45.jpg",
+      image: "https://api.dicebear.com/7.x/personas/svg?seed=ada",
       rating: 5
     },
     {
       id: 4,
-      name: "David Okonkwo",
-      role: "Port Harcourt",
+      name: "Chukwudi Obi",
+      role: "Abakaliki, Ebonyi",
       quote: "SWIFTDOME's event planning team made my daughter's wedding seamless and beautiful. From decor to coordination, everything was handled professionally. Best decision ever!",
-      image: "https://randomuser.me/api/portraits/men/86.jpg",
+      image: "https://api.dicebear.com/7.x/personas/svg?seed=chukwudi",
       rating: 5
     }
   ];

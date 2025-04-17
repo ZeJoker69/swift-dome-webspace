@@ -1,4 +1,3 @@
-
 import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 
@@ -48,20 +47,20 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Phone",
-      content: "+234 703 456 7890",
-      link: "tel:+2347034567890"
+      content: "+234 807 933 5648, +234 704 236 9597",
+      link: "tel:+2348079335648"
     },
     {
       icon: Mail,
       title: "Email",
-      content: "info@swiftdome.com",
-      link: "mailto:info@swiftdome.com"
+      content: "swiftdome@gmail.com",
+      link: "mailto:swiftdome@gmail.com"
     },
     {
       icon: MapPin,
       title: "Address",
-      content: "15 Admiralty Way, Lekki Phase 1, Lagos, Nigeria",
-      link: "https://maps.google.com/?q=15+Admiralty+Way,+Lekki+Phase+1,+Lagos,+Nigeria"
+      content: "Shop Co7, No 9 Lospino Lodge, J.C. Nwaobodo Street, Onuiyi, Nsukka, Enugu, Nigeria",
+      link: "https://maps.google.com/?q=Shop+Co7,+No+9+Lospino+Lodge,+J.C.+Nwaobodo+Street,+Onuiyi,+Nsukka,+Enugu,+Nigeria"
     }
   ];
 
